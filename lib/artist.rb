@@ -24,11 +24,7 @@ end
     s
   end
   
-  def song_count
-    self.songs.size
-  end
-
-  def self.song_count
-    @@song_count
-  end
+ def self.song_count
+   Song.all.count 
+ end
 end
