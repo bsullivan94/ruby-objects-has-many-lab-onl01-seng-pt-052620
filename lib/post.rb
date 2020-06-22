@@ -12,7 +12,7 @@ class Post
     if self.author
       self.author.name
     else
-      "My Blog Post!"
+     puts "My Blog Post!"
     end
   end
 
